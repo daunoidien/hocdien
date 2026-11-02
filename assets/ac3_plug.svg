@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+<defs>
+ <linearGradient id="redBody" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ff7777"/><stop offset=".48" stop-color="#d92732"/><stop offset="1" stop-color="#8e1420"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#71869a"/><stop offset=".5" stop-color="#f5fbff"/><stop offset="1" stop-color="#8095a9"/></linearGradient>
+</defs>
+<!-- cable -->
+<path d="M80 5V27" stroke="#263d53" stroke-width="17" stroke-linecap="round"/>
+<path d="M80 5V27" stroke="#a9bfd3" stroke-width="6" stroke-linecap="round"/>
+<!-- industrial plug body -->
+<path d="M35 35Q35 25 47 25H113Q125 25 125 37V111Q125 124 112 124H48Q35 124 35 111Z" fill="url(#redBody)" stroke="#65131c" stroke-width="4"/>
+<path d="M45 43Q45 36 54 36H106Q115 36 115 45V99H45Z" fill="#283b50" stroke="#f2a4a8" stroke-width="3"/>
+<!-- five pin contacts -->
+<circle cx="62" cy="58" r="7" fill="url(#metal)" stroke="#627d96" stroke-width="1.5"/>
+<circle cx="98" cy="58" r="7" fill="url(#metal)" stroke="#627d96" stroke-width="1.5"/>
+<circle cx="80" cy="77" r="7" fill="url(#metal)" stroke="#627d96" stroke-width="1.5"/>
+<circle cx="62" cy="94" r="6" fill="url(#metal)" stroke="#627d96" stroke-width="1.5"/>
+<circle cx="98" cy="94" r="6" fill="url(#metal)" stroke="#627d96" stroke-width="1.5"/>
+<!-- four/five industrial pins below -->
+<path d="M52 119V145M70 119V145M90 119V145M108 119V145" stroke="url(#metal)" stroke-width="9" stroke-linecap="round"/>
+<path d="M80 120V147" stroke="#e5edf5" stroke-width="7" stroke-linecap="round"/>
+<text x="80" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#e5eef7">3~ L1/L2/L3/N</text>
+</svg>
